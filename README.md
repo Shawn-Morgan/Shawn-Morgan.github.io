@@ -2,8 +2,8 @@
 
 Develop and update with portfoilio of work overtime. Deployed to github.io and github pages. Periodic updates are planned. 
 
-* [GitHub Repository](https://github.com/Shawn-Morgan/portfolio)
-* [Deployed GitHub IO](https://shawn-morgan.github.io/portfolio/)
+* [GitHub Repository](https://github.com/Shawn-Morgan)
+* [Deployed GitHub IO](https://shawn-morgan.github.io/github.io/)
 
 ## Project Requirements 
 
