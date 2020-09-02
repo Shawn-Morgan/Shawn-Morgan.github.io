@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<HTML lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <!--document responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <Title>My Portfolio</Title>
+    <!--style and reset-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--This is the container with all of the content-->
+        <div class="container">
+            <!-- This is a link -->
+            <a href="index.html" id="logo">Shawn Morgan</a>
+            <!-- This is the navigation-->
+            <nav>
+                <a href="index.html">About</a>|
+                <a href="portfolio.html">Portfolio</a>|
+                <a href="contact.html">Contact</a>|
+            </nav>
+        </div>
+    </header>
+    <!--area that contains form -->
+    <div id="main-container" class="container">
+        <section class="main">
+            <h1>Contact</h1>
+            <!--contact form-->
+            <form id="contact-form">
+                <ul>
+                    <!--name input-->
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required="required">
+                    </li>
+                    <!--email input-->
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="yourname@me.com" required="required">
+                    </li>
+                    <!--message input-->
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required">
+                        </textarea>
+                        <!-- This is the submit button-->
+                    </li>
+                    <input type="submit" name="submit">
+                </ul>
+
+            </form>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2020</p>
+    </footer>
+
+</body>
+
+</HTML>
