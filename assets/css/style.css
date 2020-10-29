@@ -62,7 +62,7 @@ nav a {
     padding-right: 15px;
     line-height: 18px;
 }
-/* Removes border to firsrt child only */ 
+/* Removes border to first child only */ 
 
 nav a:first-child {
     border-left: 0 none;
